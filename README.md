@@ -2,10 +2,11 @@
 
 在 Windows 上让 Node 脚本稳定调用 pnpm/npm 等 `.cmd`/`.ps1` 垫片 CLI。**优先复用标准轮子 `cross-spawn`，不要自造直调方案。**
 
-## 适用对象
+## 环境依赖
 
-- DeepSeek Harness（DSH）用户：一个可由 AI agent 按需自动加载的 skill，克隆即用、无需构建。
-- Windows 上写 Node 脚本调用 pnpm/npm 的开发者
+- 操作系统：Windows
+- 运行时：Node.js
+- 第三方软件：无（仅依赖系统自带的 PowerShell / 标准库）
 
 ## 目录结构
 
